@@ -18,6 +18,8 @@
 		F7438B952B1827D400736F46 /* SnapKitLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B942B1827D400736F46 /* SnapKitLabUITests.swift */; };
 		F7438B972B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B962B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift */; };
 		F7438BA72B18493300736F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7438BA62B18493300736F46 /* Main.storyboard */; };
+		F7E96AF72B1AD4C600035200 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E96AF92B1AD4C600035200 /* Localizable.strings */; };
+		F7E96B002B1ADF1F00035200 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E96AFF2B1ADF1F00035200 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		D1F8356A73838090A13C6126 /* Pods_SnapKitLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74C25394602C1A915E29D25 /* Pods-SnapKitLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitLab.release.xcconfig"; path = "Target Support Files/Pods-SnapKitLab/Pods-SnapKitLab.release.xcconfig"; sourceTree = "<group>"; };
 		E34FB862C22E0C657AF9D886 /* Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapKitLab-SnapKitLabUITests/Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F70360002B1AE40E00B063FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F7438B702B1827D200736F46 /* SnapKitLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7438B732B1827D200736F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7438B772B1827D200736F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +62,9 @@
 		F7438B942B1827D400736F46 /* SnapKitLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitLabUITests.swift; sourceTree = "<group>"; };
 		F7438B962B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7438BA62B18493300736F46 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F7E96AF82B1AD4C600035200 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7E96AFA2B1AD4C800035200 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F7E96AFF2B1ADF1F00035200 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,12 +143,14 @@
 		F7438B722B1827D200736F46 /* SnapKitLab */ = {
 			isa = PBXGroup;
 			children = (
+				F7E96AFE2B1ADF1F00035200 /* Generated */,
 				F7438B732B1827D200736F46 /* AppDelegate.swift */,
 				F7438B772B1827D200736F46 /* ViewController.swift */,
 				F7438B7C2B1827D400736F46 /* Assets.xcassets */,
 				F7438B7E2B1827D400736F46 /* LaunchScreen.storyboard */,
 				F7438B812B1827D400736F46 /* Info.plist */,
 				F7438BA62B18493300736F46 /* Main.storyboard */,
+				F7E96AF92B1AD4C600035200 /* Localizable.strings */,
 			);
 			path = SnapKitLab;
 			sourceTree = "<group>";
@@ -164,6 +172,14 @@
 			path = SnapKitLabUITests;
 			sourceTree = "<group>";
 		};
+		F7E96AFE2B1ADF1F00035200 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				F7E96AFF2B1ADF1F00035200 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,6 +188,7 @@
 			buildConfigurationList = F7438B9A2B1827D400736F46 /* Build configuration list for PBXNativeTarget "SnapKitLab" */;
 			buildPhases = (
 				C22E92C45F0CC80071D8BA90 /* [CP] Check Pods Manifest.lock */,
+				F7E96AFB2B1AD9CC00035200 /* SwiftGen */,
 				F7438B6C2B1827D200736F46 /* Sources */,
 				F7438B6D2B1827D200736F46 /* Frameworks */,
 				F7438B6E2B1827D200736F46 /* Resources */,
@@ -255,6 +272,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = F7438B672B1827D200736F46;
 			productRefGroup = F7438B712B1827D200736F46 /* Products */;
@@ -274,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7438BA72B18493300736F46 /* Main.storyboard in Resources */,
+				F7E96AF72B1AD4C600035200 /* Localizable.strings in Resources */,
 				F7438B802B1827D400736F46 /* LaunchScreen.storyboard in Resources */,
 				F7438B7D2B1827D400736F46 /* Assets.xcassets in Resources */,
 			);
@@ -396,6 +416,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapKitLab/Pods-SnapKitLab-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F7E96AFB2B1AD9CC00035200 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -404,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7438B782B1827D200736F46 /* ViewController.swift in Sources */,
+				F7E96B002B1ADF1F00035200 /* Strings.swift in Sources */,
 				F7438B742B1827D200736F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +488,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F7E96AF92B1AD4C600035200 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E96AF82B1AD4C600035200 /* en */,
+				F7E96AFA2B1AD4C800035200 /* zh-Hant */,
+				F70360002B1AE40E00B063FD /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -457,6 +506,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -520,6 +570,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -587,7 +638,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -617,7 +668,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

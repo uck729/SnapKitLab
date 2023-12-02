@@ -6,6 +6,7 @@ target 'SnapKitLab' do
   use_frameworks!
 
   pod 'SnapKit', '~> 5.6.0'
+  pod 'SwiftGen', '~> 6.0'
   
   target 'SnapKitLabTests' do
     inherit! :search_paths

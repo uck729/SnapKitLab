@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
 
         view.addSubview(button)
-        button.setTitle("Trigger", for: .normal)
+        button.setTitle(L10n.welcomeScreenTitle, for: .normal)
         button.addTarget(self, action: #selector(trigger), for: .touchUpInside)
         button.snp.makeConstraints { make -> Void in
             make.width.equalTo(100)
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     }
 
     @objc func trigger(_ sender: UIControl) {
-        var number = Float(Int.random(in: 1..<80)) / 100
+        let number = Float(Int.random(in: 1..<80)) / 100
         setPurpleViewVisible(number)
     }
 }

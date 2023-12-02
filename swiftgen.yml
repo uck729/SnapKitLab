@@ -1,0 +1,7 @@
+input_dir: SnapKitLab/
+output_dir: SnapKitLab/Generated/
+strings:
+  inputs: en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: Strings.swift
