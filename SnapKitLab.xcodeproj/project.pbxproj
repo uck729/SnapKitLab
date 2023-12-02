@@ -20,6 +20,7 @@
 		F7438B952B1827D400736F46 /* SnapKitLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B942B1827D400736F46 /* SnapKitLabUITests.swift */; };
 		F7438B972B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B962B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift */; };
 		F7438BA72B18493300736F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7438BA62B18493300736F46 /* Main.storyboard */; };
+		F793F6D32B1AF391001D7FFE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F793F6D22B1AF391001D7FFE /* Colors.xcassets */; };
 		F7E96AF72B1AD4C600035200 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E96AF92B1AD4C600035200 /* Localizable.strings */; };
 		F7E96B002B1ADF1F00035200 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E96AFF2B1ADF1F00035200 /* Strings.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		F7438B942B1827D400736F46 /* SnapKitLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitLabUITests.swift; sourceTree = "<group>"; };
 		F7438B962B1827D400736F46 /* SnapKitLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7438BA62B18493300736F46 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F793F6D22B1AF391001D7FFE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F7E96AF82B1AD4C600035200 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7E96AFA2B1AD4C800035200 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F7E96AFF2B1ADF1F00035200 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				F7438BA62B18493300736F46 /* Main.storyboard */,
 				F7E96AF92B1AD4C600035200 /* Localizable.strings */,
 				F70360012B1AE76400B063FD /* Images.xcassets */,
+				F793F6D22B1AF391001D7FFE /* Colors.xcassets */,
 			);
 			path = SnapKitLab;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				F7E96AF72B1AD4C600035200 /* Localizable.strings in Resources */,
 				F7438B802B1827D400736F46 /* LaunchScreen.storyboard in Resources */,
 				F7438B7D2B1827D400736F46 /* Assets.xcassets in Resources */,
+				F793F6D32B1AF391001D7FFE /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

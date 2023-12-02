@@ -51,6 +51,8 @@ class ViewController: UIViewController {
             make.centerX.equalTo(self.view)
             make.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottom)
         }
+
+        view.backgroundColor = ColorAsset.Color.snapDark
     }
 
     func setPurpleViewVisible(_ percentage: Float) {
