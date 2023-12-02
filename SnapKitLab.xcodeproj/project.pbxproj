@@ -10,6 +10,8 @@
 		233ABB2307E6C6E8B25DA4CA /* Pods_SnapKitLab_SnapKitLabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE7BCFE0F33313BE71D713 /* Pods_SnapKitLab_SnapKitLabUITests.framework */; };
 		C96D9CE6F9F61499FCAC9D5D /* Pods_SnapKitLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADEC42D2EA73A66E160CF84 /* Pods_SnapKitLabTests.framework */; };
 		DA041E5E7496143A21DA8A56 /* Pods_SnapKitLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F8356A73838090A13C6126 /* Pods_SnapKitLab.framework */; };
+		F70360022B1AE76400B063FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70360012B1AE76400B063FD /* Images.xcassets */; };
+		F70360042B1AE84800B063FD /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70360032B1AE84800B063FD /* Assets.swift */; };
 		F7438B742B1827D200736F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B732B1827D200736F46 /* AppDelegate.swift */; };
 		F7438B782B1827D200736F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7438B772B1827D200736F46 /* ViewController.swift */; };
 		F7438B7D2B1827D400736F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7438B7C2B1827D400736F46 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		D74C25394602C1A915E29D25 /* Pods-SnapKitLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitLab.release.xcconfig"; path = "Target Support Files/Pods-SnapKitLab/Pods-SnapKitLab.release.xcconfig"; sourceTree = "<group>"; };
 		E34FB862C22E0C657AF9D886 /* Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapKitLab-SnapKitLabUITests/Pods-SnapKitLab-SnapKitLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F70360002B1AE40E00B063FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F70360012B1AE76400B063FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F70360032B1AE84800B063FD /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		F7438B702B1827D200736F46 /* SnapKitLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7438B732B1827D200736F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7438B772B1827D200736F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 				F7438B812B1827D400736F46 /* Info.plist */,
 				F7438BA62B18493300736F46 /* Main.storyboard */,
 				F7E96AF92B1AD4C600035200 /* Localizable.strings */,
+				F70360012B1AE76400B063FD /* Images.xcassets */,
 			);
 			path = SnapKitLab;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 		F7E96AFE2B1ADF1F00035200 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				F70360032B1AE84800B063FD /* Assets.swift */,
 				F7E96AFF2B1ADF1F00035200 /* Strings.swift */,
 			);
 			path = Generated;
@@ -293,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7438BA72B18493300736F46 /* Main.storyboard in Resources */,
+				F70360022B1AE76400B063FD /* Images.xcassets in Resources */,
 				F7E96AF72B1AD4C600035200 /* Localizable.strings in Resources */,
 				F7438B802B1827D400736F46 /* LaunchScreen.storyboard in Resources */,
 				F7438B7D2B1827D400736F46 /* Assets.xcassets in Resources */,
@@ -443,6 +450,7 @@
 			files = (
 				F7438B782B1827D200736F46 /* ViewController.swift in Sources */,
 				F7E96B002B1ADF1F00035200 /* Strings.swift in Sources */,
+				F70360042B1AE84800B063FD /* Assets.swift in Sources */,
 				F7438B742B1827D200736F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

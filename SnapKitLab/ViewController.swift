@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     lazy var box = UIView()
     lazy var tableView = UITableView()
     lazy var button = UIButton()
+    lazy var smileImage = UIImageView(image: ImageAsset.Image.smile)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,14 @@ class ViewController: UIViewController {
             make.width.equalTo(100)
             make.height.equalTo(60)
             make.center.equalTo(self.view)
+        }
+
+        view.addSubview(smileImage)
+        smileImage.snp.makeConstraints { make -> Void in
+            make.width.equalTo(100)
+            make.height.equalTo(100)
+            make.centerX.equalTo(self.view)
+            make.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottom)
         }
     }
 
